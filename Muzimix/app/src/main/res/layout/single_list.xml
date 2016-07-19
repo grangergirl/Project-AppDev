@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:id="@+id/trim"
+            android:src="@drawable/trimmer_scissors"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:clickable="true"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+    </TableRow>
+</TableLayout>
